@@ -2,7 +2,7 @@ import threading
 import whois
 import tkinter as tk
 from tkinter import messagebox, scrolledtext
-from utils.theme import DARK_THEME
+from theme.theme import DARK_THEME
 
 def launch_whois_lookup():
     whois_win = tk.Toplevel()

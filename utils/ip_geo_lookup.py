@@ -4,7 +4,7 @@ import threading
 import requests
 import tkinter as tk
 from tkinter import messagebox, scrolledtext
-from utils.theme import DARK_THEME
+from theme.theme import DARK_THEME
 
 def launch_ip_geo_lookup():
     ip_geo_win = tk.Toplevel()

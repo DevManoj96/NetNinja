@@ -3,7 +3,7 @@ import threading
 import tkinter as tk
 from tkinter import messagebox
 import platform
-from utils.theme import DARK_THEME
+from theme.theme import DARK_THEME
 
 
 def launch_ping_host():

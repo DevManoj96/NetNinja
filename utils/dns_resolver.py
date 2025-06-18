@@ -4,7 +4,7 @@ import socket
 import threading
 import tkinter as tk
 from tkinter import messagebox, scrolledtext
-from utils.theme import DARK_THEME
+from theme.theme import DARK_THEME
 
 def launch_dns_resolver():
     dns_win = tk.Toplevel()

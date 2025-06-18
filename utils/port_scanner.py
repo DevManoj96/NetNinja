@@ -3,7 +3,7 @@ import threading
 import tkinter as tk
 from tkinter import messagebox, scrolledtext
 from tkinter import font
-from utils.theme import DARK_THEME
+from theme.theme import DARK_THEME
 
 def launch_port_scanner():
     scanner_win = tk.Toplevel()
