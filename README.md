@@ -32,8 +32,8 @@ pip install requests
 ## 📦 Installation
 1. Clone the Repository
 ```bash
-git clone <URL>
-cd <DIR>
+git clone https://github.com/DevManoj96/NetNinja.git
+cd NetNinja
 ```
 
 2. Run the program
@@ -45,7 +45,8 @@ python3 netninja.py
 
 ## 🖥️ Preview
 
-![NetNinja UI Screenshot](./netninja.png)
+![netninja](https://github.com/user-attachments/assets/d53b0726-a904-4c8a-bd7e-560beb3199d5)
+
 
 ---
 
