@@ -47,4 +47,3 @@ def launch_whois_lookup():
     tk.Button(whois_win, text="Lookup", font=("Arial", 12), command=start_whois_lookup_thread, width=10, height=1, bg=DARK_THEME["button_bg"], fg=DARK_THEME["button_fg"], activebackground="#3d3d3d", activeforeground=DARK_THEME["highlight"]).pack(pady=5)
 
     tk.Button(whois_win, text="Done", font=("Arial", 12), command=whois_win.destroy, width=10, height=1, bg=DARK_THEME["button_bg"], fg=DARK_THEME["button_fg"], activebackground="#3d3d3d", activeforeground=DARK_THEME["highlight"]).pack(pady=5)
-
