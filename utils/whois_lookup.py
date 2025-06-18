@@ -6,7 +6,7 @@ from theme.theme import DARK_THEME
 
 def launch_whois_lookup():
     whois_win = tk.Toplevel()
-    whois_win.title("--- Whois Lookup ---")
+    whois_win.title("Whois Lookup")
     whois_win.geometry("550x550")
 
     whois_win.config(bg=DARK_THEME["bg"])
