@@ -8,7 +8,7 @@ from theme.theme import DARK_THEME
 
 def launch_ping_host():
     ping_win = tk.Toplevel()
-    ping_win.title("--- Ping Host ---")
+    ping_win.title("Ping Host")
     ping_win.geometry("550x550")
 
     ping_win.config(bg=DARK_THEME["bg"])
